@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+    
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #343633;">
+        <div class="container">
+          <a class="navbar-brand text-primary" href="#">Disney + Hotstar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu bg-danger">
+                  <li><a class="dropdown-item" href="#marvel">Marvel</a></li> 
+                  <li><a class="dropdown-item" href="#starwars">Star Wars</a></li>
+                  <li><a class="dropdown-item" href="#pixar">Pixar</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              
+
+             </ul>
+            
+          </div>
+          <button class="btn btn-outline-primary me-2 ">Login</button>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Ms.Marvels.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Ms. Marvel</h5>
+              <p>Kamala Khan, remaja Muslim Amerika dan penggemar berat pahlawan super, merasa dirinya tak membaur, sampai akhirnya dia mendapatkan kekuatan super.</p>
+              <p><a href="#" class="btn btn-outline-primary mt-3">Watch More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Mandalorian.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>The <br> Mandalorian</h5>
+              <p>Setelah hancurnya Kekaisaran Galaksi, kekacauan tersebar di seluruh galaksi. Seorang penembak penyendiri berusaha menjelajahi wilayah terluar.</p>
+              <p><a href="#" class="btn btn-outline-primary mt-3">Watch More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="turning_red.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Turning Red</h5>
+              <p>Disney dan Pixar memperkenalkan Mei Lee, anak 13 tahun yang percaya diri dan kutu buku yang dilema antara berbakti kepada ibunya dan masa remajanya.</p>
+              <p><a href="#" class="btn btn-outline-primary mt-3">Watch More</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!---about section-->
+      <section id="about" class="jumbotron section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+              <div class="about-img">
+                <img src="disney+.jpeg" alt="" class="img-fluid rounded-circle">
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div class="about-text">
+                <h2>We Provide Best Quality <br> Services Ever</h2>
+                <p>Movies we provide more than 500 best movies of all time</p>
+                <p class="social">
+                  <a class="icon-link bi bi-twitter text-light mx-1" href="#">
+                    <svg class=" bi bi-twitter text-light mx-1" aria-hidden="true"><use xlink:href="https://twitter.com/DisneyPlusID"></use></svg>
+                    DisneyPLusID
+                  </a><br>
+                  <a class="icon-link bi bi-instagram text-light mx-1" href="#">
+                    <svg class=" bi bi-twitter text-light mx-1" aria-hidden="true"><use xlink:href="https://www.instagram.com/disneyplushotstarid/"></use></svg>
+                    Disney plus Hotstar ID
+                  </a>
+                </p>
+                <a href="#subscribe" class="btn btn-outline-primary">Subscribe For More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--services section-->
+
+      <section id="categories" class="categories section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Our popular Film</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div id="marvel" class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <img src="Spiderman.jpg" alt="" class="img-fluid">
+                  <h3 class="card-title">The Amazing <br>Spiderman</h3>
+                  <button class="btn btn-outline-primary text-light">Watch Now</button>
+                </div>
+              </div>
+            </div>
+            <div id="marvel" class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <img src="antman.jpg" alt="" class="img-fluid">
+                  <h3 class="card-title">Ant-Man <br> and The Wasp: br Quantumania</h3>
+                  <button class="btn btn-outline-primary text-light">Watch Now</button>
+                </div>
+              </div>
+            </div>
+            <div id="marvel" class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <img src="gotg.jpg" alt="" class="img-fluid">
+                  <h3 class="card-title">Guardian of<br> The Galaxy Vol. 3</h3>
+                  <button class="btn btn-outline-primary text-light">Watch Now</button>
+                </div>
+              </div>
+            </div>
+            <div id="marvel" class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <img src="Ms.Marvels.jpg" alt="" class="img-fluid">
+                  <h3 class="card-title">Ms. Marvels</h3>
+                  <button class="btn btn-outline-primary text-light">Watch Now</button>
+                </div>
+              </div>
+            </div>
+            <div id="starwars" class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <img src="Mandalorian.jpeg" alt="" class="img-fluid">
+                  <h3 class="card-title">The Mandalorian</h3>
+                  <button class="btn btn-outline-primary text-light">Watch Now</button>
+                </div>
+              </div>
+            </div>
+            <div id="pixar" class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <img src="turning_red.jpg" alt="" class="img-fluid">
+                  <h3 class="card-title">Turning Red</h3>
+                  <button class="btn btn-outline-primary text-light">Watch Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--portofolio section-->
+      <section id="subscribe" class="subscribe section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Subscribe To Gain More</h2>
+                <p>By subscribing you will get more experience in watching more movies. For now, You just can access free Film  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-center bg-dark pb-2">
+                <div class="card-body text-light">
+                  <div class="img-area mb-4">
+                    <img src="bronze.png" alt="" width="50%" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Bronze</h3>
+                  <p class="lead">Access Free Movies <i class="bi bi-check"></i> <br> Access Bronze Movies <i class="bi bi-check"></i> <br> Access Gold Movie <i class="bi bi-x-square"></i> <br> Access Platinum Movies <i class="bi bi-x-square"></i> </p>
+                  <button class="btn btn-outline-primary text-light"> <i class="bi bi-plus-circle-dotted"></i> Subscribe</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-center bg-dark pb-2">
+                <div class="card-body text-light">
+                  <div class="img-area mb-4">
+                    <img src="gold.png" alt="" width="50%" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Gold</h3>
+                  <p class="lead">Access Free Movie <i class="bi bi-check"></i> <br> Access Bronze Movies <i class="bi bi-check"></i> <br> Access Gold Movies <i class="bi bi-check"></i> <br> Access Platinum Movies <i class="bi bi-x-square"></i> </p>
+                  <button class="btn btn-outline-primary text-light"> <i class="bi bi-plus-circle-dotted"></i> Subscribe</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-center bg-dark pb-2">
+                <div class="card-body text-light">
+                  <div class="img-area mb-4">
+                    <img src="Platinum.png" alt="" width="50%" class="img-fluid">
+                  </div>
+                  <h3 class="card-title">Platinum</h3>
+                  <p class="lead">Access Free Movies <i class="bi bi-check"></i> <br> Access Bronze Movies <i class="bi bi-check"></i> <br> Access Gold Movies <i class="bi bi-check"></i> <br> Access Platinum Movies <i class="bi bi-check"></i> </p>
+                  <button class="btn btn-outline-primary text-light"> <i class="bi bi-plus-circle-dotted"></i> Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Contact Us</h2>
+                <p>If you have some question and problem, please tell us in :</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row m-0">
+            <div class="col-md-12 p-0 pt-4 pb-4">
+              <form action="#" class="bg-dark p-4 m-auto">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" required placeholder="Your Full name">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <input type="email" class="form-control" required placeholder="Your Email here">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="mb-3">
+                      <textarea rows="3" required class="form-control" placeholder="Your Question Here"></textarea>
+                    </div>
+                  </div>
+  
+                  <button class="btn btn-outline-primary btn-lg btn-block mt-3">Send Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m9EX0f6V11Y?si=TU9AB7mdjpDCtlvU"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40447.84179924212!2d-81.55897965837478!3d28.36343469721876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7c2763821e47%3A0xbbffcea336e3f10f!2sDisney&#39;s%20Hollywood%20Studios!5e0!3m2!1sen!2sid!4v1702480534330!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <!--Footer-->
+      <footer class="bg-dark p-2 text-center">
+        <div class="container">
+          <p class="text-white"> 
+              
+              <img src="disney+.jpeg" alt="" width="10%" class="img-fluid rounded-circle"> &#169; All Right Reserved  <img src="Marvels.jpeg" alt="" width="10%" class="img-fluid"> </p>
+            <i class="bi bi-twitter text-light mx-1"></i>
+            <i class="bi bi-facebook text-light mx-1"></i>
+            <i class="bi bi-linkedin text-light mx-1"></i>
+            <i class="bi bi-instagram text-light mx-1"></i>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
